@@ -1,0 +1,4 @@
+ollama>=0.3.3
+pumpfunpy>=0.2.3
+playwright>=1.46.0
+
