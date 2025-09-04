@@ -45,7 +45,7 @@ def format_user_message(comment_text: str) -> str:
 		return dedent(
 			f"""
 			Given this Pump.fun comment:
-			"""{comment_text}"""
+			{comment_text}
 			Write a polarizing, witty, self-grandiose quip in the style above.
 			Tasteful profanity is allowed. No slurs, hate, sexual content, or threats.
 			One or two sentences only. Keep it sharp and quotable.
@@ -55,7 +55,7 @@ def format_user_message(comment_text: str) -> str:
 		return dedent(
 			f"""
 			Given this Pump.fun comment:
-			"""{comment_text}"""
+			{comment_text}
 			Write a polarizing, witty, self-grandiose quip in the style above.
 			Slightly offensive is OK (PG-13). No slurs, hate, sexual content, or threats.
 			One or two sentences only. Keep it sharp and quotable.
